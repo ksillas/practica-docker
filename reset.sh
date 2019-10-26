@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>wordpress-with-nginx-and-letsencrypt/docker-compose.yml at master · dmuth/wordpress-with-nginx-and-letsencrypt · GitHub</title>
+  <title>wordpress-with-nginx-and-letsencrypt/reset.sh at master · dmuth/wordpress-with-nginx-and-letsencrypt · GitHub</title>
     <meta name="description" content="Install WordPress in Docker with Nginx, PHP-FPM, and LetsEncrypt for HTTPS! - dmuth/wordpress-with-nginx-and-letsencrypt">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -40,7 +40,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
   
-  <meta name="request-id" content="C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651" data-pjax-transient>
+  <meta name="request-id" content="C7E7:40B81:2A2EA01:3F11604:5DB4A67E" data-pjax-transient>
 
 
   
@@ -51,7 +51,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="4825967594868876867" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C7E7:40B81:2A2EA01:3F11604:5DB4A67E" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="4825967594868876867" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -69,7 +69,7 @@
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NGY1OTU5MzRhZjNjMDExOTZlMWUzOWNhNDliOWRmNTE5Yzk3ZGQxMTRhMjZiZDE4MjE0OTAzMmEyNzJjNmVjN3x7InJlbW90ZV9hZGRyZXNzIjoiODMuNTAuMTUuMTc3IiwicmVxdWVzdF9pZCI6IkM3RTc6NDBCODE6MkEyRDREQjozRjBEQ0E1OjVEQjRBNjUxIiwidGltZXN0YW1wIjoxNTcyMTIwMTcyLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="ODBhYjViMzZlMmU0MmY3ZmE5ZDA2NzNlMzBjMDcwNWIxY2I0YjdhMDdiZGQzMzg2MjllZWRkOTgwYjAwMTYxYnx7InJlbW90ZV9hZGRyZXNzIjoiODMuNTAuMTUuMTc3IiwicmVxdWVzdF9pZCI6IkM3RTc6NDBCODE6MkEyRUEwMTozRjExNjA0OjVEQjRBNjdFIiwidGltZXN0YW1wIjoxNTcyMTIwMTk1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
 
@@ -85,7 +85,7 @@
   <meta name="octolytics-dimension-user_id" content="374060" /><meta name="octolytics-dimension-user_login" content="dmuth" /><meta name="octolytics-dimension-repository_id" content="161568856" /><meta name="octolytics-dimension-repository_nwo" content="dmuth/wordpress-with-nginx-and-letsencrypt" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="161568856" /><meta name="octolytics-dimension-repository_network_root_nwo" content="dmuth/wordpress-with-nginx-and-letsencrypt" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/docker-compose.yml" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/reset.sh" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -139,7 +139,7 @@
         <div class="d-flex flex-items-center">
             <a href="/join?source=header-repo"
               class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/docker-compose.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="625fb563e5a4ee74418ce6bdb675d2c30cb5663e03004165e221b610eda200f6"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2EA01:3F11604:5DB4A67E&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/reset.sh&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c60f3f59154013c0a38d56cfb6b975593f9ff6c54665723ccbb50e0e66a27819"
               data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
               Sign&nbsp;up
             </a>
@@ -282,7 +282,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=sZe+bY1AzMaeNMdxgSAMMMpok3G5x2OBwz7au5S3HtGNqlfAjl0cw81klB3hfmzdlzfeYOPzhHqsk3Aun36boQ=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=0qP98bv0NfVtnOBgF0aC+Wnh27MInN3nszqLK4rOEYLunhRcuOnl8D7Mswx3GOIUNL6WolKoOhzclyG+gQeU8g=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -407,15 +407,15 @@
 
           </div>
 
-        <a href="/login?return_to=%2Fdmuth%2Fwordpress-with-nginx-and-letsencrypt%2Fblob%2Fmaster%2Fdocker-compose.yml"
+        <a href="/login?return_to=%2Fdmuth%2Fwordpress-with-nginx-and-letsencrypt%2Fblob%2Fmaster%2Freset.sh"
           class="HeaderMenu-link no-underline mr-3"
-          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/docker-compose.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bd569385bed0fdb502a84164f1bf620367fd45b35bdbd67f1e9df6c7f8422c99"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2EA01:3F11604:5DB4A67E&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/reset.sh&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c1c4fcae4029dca100ddfd65c3d9ef3f806c59dc3d7b052e7ac49a34995931a3"
           data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
           Sign&nbsp;in
         </a>
           <a href="/join?source=header-repo&amp;source_repo=dmuth%2Fwordpress-with-nginx-and-letsencrypt"
             class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/docker-compose.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bd569385bed0fdb502a84164f1bf620367fd45b35bdbd67f1e9df6c7f8422c99"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2EA01:3F11604:5DB4A67E&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/reset.sh&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c1c4fcae4029dca100ddfd65c3d9ef3f806c59dc3d7b052e7ac49a34995931a3"
             data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
             Sign&nbsp;up
           </a>
@@ -463,7 +463,7 @@
 
   <li>
     
-  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/docker-compose.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e4635b5de20ad53c3cb3b38adb21f5af2bf39360ca75dffbd09df0f939e66262" href="/login?return_to=%2Fdmuth%2Fwordpress-with-nginx-and-letsencrypt">
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2EA01:3F11604:5DB4A67E&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/reset.sh&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ca7d0fb7253d98b59141babf4e7e716cadc7d4e1a59e845d4efea79f278f6b11" href="/login?return_to=%2Fdmuth%2Fwordpress-with-nginx-and-letsencrypt">
     <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
     Watch
 </a>    <a class="social-count" href="/dmuth/wordpress-with-nginx-and-letsencrypt/watchers"
@@ -474,7 +474,7 @@
   </li>
 
   <li>
-        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:161568856,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/docker-compose.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c36d8e3ce100eb547d6924cd6b11e639107317303663bf24883142c5f0c43b68" href="/login?return_to=%2Fdmuth%2Fwordpress-with-nginx-and-letsencrypt">
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:161568856,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2EA01:3F11604:5DB4A67E&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/reset.sh&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7479cea66553cc491ca6230952da68127f395bd92deab7e86f3f7b701e0e39fe" href="/login?return_to=%2Fdmuth%2Fwordpress-with-nginx-and-letsencrypt">
       <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
       Star
 </a>
@@ -486,7 +486,7 @@
   </li>
 
   <li>
-      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:161568856,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/docker-compose.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0e6ea6fbd46ecbde83de3f7ab7ff42daf283ed07fc18bdefd6b416f9f5124827" href="/login?return_to=%2Fdmuth%2Fwordpress-with-nginx-and-letsencrypt">
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:161568856,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2EA01:3F11604:5DB4A67E&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/reset.sh&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4e6901d5cbd4646d763b7e3ab91dfd1b9a8ce36658cf8c3867a214213d0862ca" href="/login?return_to=%2Fdmuth%2Fwordpress-with-nginx-and-letsencrypt">
         <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
         Fork
 </a>
@@ -612,19 +612,19 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dmuth/wordpress-with-nginx-and-letsencrypt/blob/418c4b95613f4d363cecc5682875144c7f3aa459/docker-compose.yml">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dmuth/wordpress-with-nginx-and-letsencrypt/blob/418c4b95613f4d363cecc5682875144c7f3aa459/reset.sh">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:ba4cfd864ca9c143cc53663eb5b11275 -->
+    <!-- blob contrib key: blob_contributors:v21:e83b0fdc497ac05fb9aa06d8baf3daa0 -->
           <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="BSfhzcJWDVyRCpaFbgBJe9P3L1IGn8Tm3G7z42lEWz/1owxUx02hXp8nb0EY8ptgElf1lvUijalvpgpnsXIv+Q==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="+VGB5re8sLaShK+SiiNQFR4ubRHO2K4bDNTNuy2anPIJ1Wx/sqcctJypVlb80YIO34631T1l51S/HDQ/9azoNA==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
 </form>          <h3 class="pt-2">Join GitHub today</h3>
           <p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
-          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2D4DB:3F0DCA5:5DB4A651&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/docker-compose.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fa67bbd3159e50a4bd9fe50acd061f91c69558f4bb1525f11862f7d0a0239ede" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show&amp;source_repo=dmuth%2Fwordpress-with-nginx-and-letsencrypt">Sign up</a>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;1123633141.1572120131&quot;,&quot;originating_request_id&quot;:&quot;C7E7:40B81:2A2EA01:3F11604:5DB4A67E&quot;,&quot;originating_url&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt/blob/master/reset.sh&quot;,&quot;referrer&quot;:&quot;https://github.com/dmuth/wordpress-with-nginx-and-letsencrypt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ce41630fc09629a15a3d7ede93fd12aedef9cc487dbead61d5fa7a4eae6bfd41" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show&amp;source_repo=dmuth%2Fwordpress-with-nginx-and-letsencrypt">Sign up</a>
         </div>
       </div>
     </div>
@@ -641,7 +641,7 @@
     <span class="css-truncate-target" data-menu-button>master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/dmuth/wordpress-with-nginx-and-letsencrypt/ref-list/master/docker-compose.yml?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/dmuth/wordpress-with-nginx-and-letsencrypt/ref-list/master/reset.sh?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -655,13 +655,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="docker-compose.yml" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="reset.sh" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/dmuth/wordpress-with-nginx-and-letsencrypt"><span>wordpress-with-nginx-and-letsencrypt</span></a></span></span><span class="separator">/</span><strong class="final-path">docker-compose.yml</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/dmuth/wordpress-with-nginx-and-letsencrypt"><span>wordpress-with-nginx-and-letsencrypt</span></a></span></span><span class="separator">/</span><strong class="final-path">reset.sh</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -671,7 +671,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="docker-compose.yml" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="reset.sh" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -686,12 +686,12 @@
           <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=374060" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/dmuth"><img class="avatar" src="https://avatars3.githubusercontent.com/u/374060?s=40&amp;v=4" width="20" height="20" alt="@dmuth" /></a>
           <a class="text-bold link-gray-dark lh-default v-align-middle" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=374060" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/dmuth">dmuth</a>
             <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="Fixed version" class="link-gray" href="/dmuth/wordpress-with-nginx-and-letsencrypt/commit/9df3852170527568489d37f7203b565f016f2fa3">Fixed version</a>
+              <a data-pjax="true" title="Added reset script." class="link-gray" href="/dmuth/wordpress-with-nginx-and-letsencrypt/commit/c118d1589d5ca297c875695b6471b4767a247321">Added reset script.</a>
             </span>
         </span>
         <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/dmuth/wordpress-with-nginx-and-letsencrypt/commit/9df3852170527568489d37f7203b565f016f2fa3" data-pjax>9df3852</a>
-          <relative-time datetime="2018-12-14T01:47:49Z" class="no-wrap">Dec 14, 2018</relative-time>
+          <a class="pr-2 text-mono link-gray" href="/dmuth/wordpress-with-nginx-and-letsencrypt/commit/c118d1589d5ca297c875695b6471b4767a247321" data-pjax>c118d15</a>
+          <relative-time datetime="2018-12-13T02:02:54Z" class="no-wrap">Dec 13, 2018</relative-time>
         </span>
       </div>
 
@@ -703,7 +703,7 @@
         <details-dialog
           class="Box Box--overlay d-flex flex-column anim-fade-in fast"
           aria-label="Users who have contributed to this file"
-          src="/dmuth/wordpress-with-nginx-and-letsencrypt/contributors/master/docker-compose.yml/list" preload>
+          src="/dmuth/wordpress-with-nginx-and-letsencrypt/contributors/master/reset.sh/list" preload>
           <div class="Box-header">
             <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
               <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -727,17 +727,19 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      88 lines (78 sloc)
+      <span class="file-mode" title="File mode">executable file</span>
       <span class="file-info-divider"></span>
-    2.13 KB
+      27 lines (20 sloc)
+      <span class="file-info-divider"></span>
+    547 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/dmuth/wordpress-with-nginx-and-letsencrypt/raw/master/docker-compose.yml">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/dmuth/wordpress-with-nginx-and-letsencrypt/blame/master/docker-compose.yml">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/dmuth/wordpress-with-nginx-and-letsencrypt/commits/master/docker-compose.yml">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/dmuth/wordpress-with-nginx-and-letsencrypt/raw/master/reset.sh">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/dmuth/wordpress-with-nginx-and-letsencrypt/blame/master/reset.sh">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/dmuth/wordpress-with-nginx-and-letsencrypt/commits/master/reset.sh">History</a>
     </div>
 
 
@@ -760,26 +762,24 @@
 
       
 
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-yaml ">
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-shell ">
       
 <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#!</span>/bin/bash</span></td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">version</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>3.3<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span></span></td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Reset our setup so that we can start over from scratch.</span></td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">services</span>:</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span></span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
@@ -788,335 +788,91 @@
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">   <span class="pl-ent">db</span>:</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Errors are fatal</span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">image</span>: <span class="pl-s">mysql:5.7</span></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">set</span> -e</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">restart</span>: <span class="pl-s">always</span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">volumes</span>:</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span># <span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> Persist our MySQL data</span></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span># Stopping and removing containers...<span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span># <span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">./data:/var/lib/mysql</span></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">docker-compose <span class="pl-c1">kill</span> </td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">environment</span>:</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">docker-compose rm -f</td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">MYSQL_ROOT_PASSWORD</span>: <span class="pl-s">wordpressrootpw</span></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">MYSQL_DATABASE</span>: <span class="pl-s">wordpress</span></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span># <span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">MYSQL_USER</span>: <span class="pl-s">wordpress</span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span># Removing database, wordpress, and logs...<span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">MYSQL_PASSWORD</span>: <span class="pl-s">wordpress</span></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span># <span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span></span></td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">   <span class="pl-c"><span class="pl-c">#</span></span></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> I made a conscious decision to leave ssl_certs/ untouched, as it can</span></td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">   <span class="pl-c"><span class="pl-c">#</span> PHP FPM runs persistently, and services requests over port 9000</span></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> take 10s of seconds to generate them, and I don&#39;t want users to have</span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">   <span class="pl-c"><span class="pl-c">#</span> from our webserver.</span></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> to wait through that on every single iteration, especially for development purposes.</span></td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">   <span class="pl-c"><span class="pl-c">#</span></span></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span></span></td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">   <span class="pl-ent">php</span>:</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">rm -rf data/ logs/ wordpress/</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">image</span>: <span class="pl-s">wordpress:5-fpm</span></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">depends_on</span>:</td>
-      </tr>
-      <tr>
-        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">db</span></td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">restart</span>: <span class="pl-s">always</span></td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">volumes</span>:</td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> Copy in our PHP config for large uploads.</span></td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">./php-uploads.ini:/usr/local/etc/php/conf.d/uploads.ini</span></td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> When first run, this image populates /var/www/html/ with a Wordpress install,</span></td>
-      </tr>
-      <tr>
-        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> and we want that to be exported so we have a copy of our code.</span></td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">./wordpress:/var/www/html</span></td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">environment</span>:</td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">WORDPRESS_DB_HOST</span>: <span class="pl-s">db:3306</span></td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">WORDPRESS_DB_USER</span>: <span class="pl-s">wordpress</span></td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">WORDPRESS_DB_PASSWORD</span>: <span class="pl-s">wordpress</span></td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">   <span class="pl-ent">web</span>:</td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">image</span>: <span class="pl-s">nginx</span></td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">depends_on</span>:</td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">php</span></td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">restart</span>: <span class="pl-s">always</span></td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">volumes</span>:</td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> Import our Nginx configuration for FPM.</span></td>
-      </tr>
-      <tr>
-        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">./nginx.conf:/etc/nginx/conf.d/default.conf</span></td>
-      </tr>
-      <tr>
-        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> The webserver will also need to see our Wordpress install.</span></td>
-      </tr>
-      <tr>
-        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">./wordpress:/var/www/html</span></td>
-      </tr>
-      <tr>
-        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> Write logs here.  Note that they will need to be </span></td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> rotated on the parent system.</span></td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">./logs:/var/log/nginx</span></td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">     </td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">   <span class="pl-ent">https-portal</span>:</td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">image</span>: <span class="pl-s">steveltn/https-portal:1</span></td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">depends_on</span>:</td>
-      </tr>
-      <tr>
-        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">web</span></td>
-      </tr>
-      <tr>
-        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">ports</span>:</td>
-      </tr>
-      <tr>
-        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line">       - <span class="pl-c1">80:80</span></td>
-      </tr>
-      <tr>
-        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line">       - <span class="pl-c1">443:443</span></td>
-      </tr>
-      <tr>
-        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">restart</span>: <span class="pl-s">always</span></td>
-      </tr>
-      <tr>
-        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">     <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">     <span class="pl-c"><span class="pl-c">#</span> Save our SSL certs between runs so they aren&#39;t regenerated on every single run.</span></td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">     <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">volumes</span>:</td>
-      </tr>
-      <tr>
-        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line">       - <span class="pl-s">./ssl_certs:/var/lib/https-portal</span></td>
-      </tr>
-      <tr>
-        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line">     <span class="pl-ent">environment</span>:</td>
-      </tr>
-      <tr>
-        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">DOMAINS</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>localhost -&gt; http://web:80 #local<span class="pl-pds">&#39;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span>DOMAINS: &#39;YOUR_FQDN -&gt; http://web:80 #staging&#39; # Uncomment when you want to test a staging cert.</span></td>
-      </tr>
-      <tr>
-        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span>DOMAINS: &#39;YOUR_FQDN -&gt; http://web:80 #production&#39; # Uncomment when you are ready for production.</span></td>
-      </tr>
-      <tr>
-        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span> Allow larger files to be uploaded</span></td>
-      </tr>
-      <tr>
-        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code blob-code-inner js-file-line">       <span class="pl-c"><span class="pl-c">#</span></span></td>
-      </tr>
-      <tr>
-        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="LC85" class="blob-code blob-code-inner js-file-line">       <span class="pl-ent">CLIENT_MAX_BODY_SIZE</span>: <span class="pl-c1">64M</span></td>
-      </tr>
-      <tr>
-        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code blob-code-inner js-file-line">
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
 </table>
@@ -1137,7 +893,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/dmuth/wordpress-with-nginx-and-letsencrypt/blame/418c4b95613f4d363cecc5682875144c7f3aa459/docker-compose.yml">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/dmuth/wordpress-with-nginx-and-letsencrypt/blame/418c4b95613f4d363cecc5682875144c7f3aa459/reset.sh">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/dmuth/wordpress-with-nginx-and-letsencrypt/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -1173,7 +929,7 @@
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.15280s from unicorn-588484f76f-bkrg7">GitHub</span>, Inc.</li>
+      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.22011s from unicorn-7c4996bb65-vdgb5">GitHub</span>, Inc.</li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
