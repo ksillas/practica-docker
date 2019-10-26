@@ -76,13 +76,17 @@ services:
      volumes:
        - ./ssl_certs:/var/lib/https-portal
      environment:
-       DOMAINS: 'localhost -> http://web:80 #local'
-       #DOMAINS: 'YOUR_FQDN -> http://web:80 #staging' # Uncomment when you want to test a staging cert.
+       #DOMAINS: 'localhost -> http://web:80 #local'
+       DOMAINS: 'localhost -> http://web:80 #staging' # Uncomment when you want to test a staging cert.
        #DOMAINS: 'YOUR_FQDN -> http://web:80 #production' # Uncomment when you are ready for production.
        #
        # Allow larger files to be uploaded
        #
        CLIENT_MAX_BODY_SIZE: 64M
 
-
+   owncloud:
+     image: owncloud:10.0.2
+     ports:
+       - 8080:80
+     restart: always
 
