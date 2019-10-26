@@ -1,0 +1,9 @@
+
+#
+# Don't check these in.
+#
+data/
+logs/
+wordpress/
+ssl_certs/
+
